@@ -1,3 +1,6 @@
-import greeting from './app';
+import ciudades from './data';
+import mostrarCiudades from './app';
 
-greeting('Paolo');
+mostrarCiudades(ciudades);
+
+export default mostrarCiudades

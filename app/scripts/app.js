@@ -1,3 +1,3 @@
-const greeting = nombre => console.log(`Hola ${nombre}`);
+const mostrarCiudades = ciudades => ciudades.forEach((ciudad) => console.log(ciudad));
 
-export default greeting;
+export default mostrarCiudades;
